@@ -1,0 +1,13 @@
+.background{
+    -fx-background:linear-gradient(#3A5576, #4C83C7);
+}
+.sidebar{
+    -fx-background-color:white;
+}
+.header{
+    -fx-background-color:linear-gradient(to right, #FFFFFF,#fffefe,#a9c2df , #5789C6); 
+}
+.search{
+    -fx-background-color: linear-gradient(to right, #FFFFFF ,#FFFFFF, #a3bcd8);
+    -fx-color:white;
+}

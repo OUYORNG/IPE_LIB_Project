@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="background" stylesheets="@admin_dashboard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane prefHeight="138.0" prefWidth="1920.0" styleClass="header" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="101.0" fitWidth="357.0" layoutX="32.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/GIC%20logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="450.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="90.0" fitWidth="117.0" layoutX="1494.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" styleClass="sidebar" />
+            <Text layoutX="1617.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Text>
+            <TextField layoutX="944.0" layoutY="45.0" prefHeight="48.0" prefWidth="238.0" promptText="as" style="-fx-border-radius: 50px;" styleClass="search" text="Search here">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="905.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/search.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="942.0" prefWidth="397.0" styleClass="sidebar" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="18.0" layoutY="108.0" prefHeight="775.0" prefWidth="356.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0" style="-fx-translate-x: 20px;">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/dashboard.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" style="-fx-translate-x: 20px;" text="Dashboard">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/teacher.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" style="-fx-translate-x: 20px;" text="Teacher Information">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/student.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" style="-fx-translate-x: 20px;" text="Student Information">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="210.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="300.0" style="-fx-translate-x: 20px;">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/setting.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" style="-fx-translate-x: 20px;" text="Cirriculumns">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </left>
+</BorderPane>

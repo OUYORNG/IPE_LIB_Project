@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.admin_model.teacher_lists_controller">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="470.0">
+         <children>
+            <ImageView fx:id="profileurl" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../../../../../../img/setting.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="teachername" text="Username">
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="teacherid" layoutX="100.0" layoutY="29.0" text="TeachID">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="skills" layoutX="224.0" layoutY="29.0" text="Skills">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</Pane>

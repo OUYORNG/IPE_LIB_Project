@@ -11,3 +11,7 @@
     -fx-background-color: linear-gradient(to right, #FFFFFF ,#FFFFFF, #a3bcd8);
     -fx-color:white;
 }
+.teacherlist{
+    -fx-background-color:white;
+    -fx-border-radius: 20px;
+}

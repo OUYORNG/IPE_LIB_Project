@@ -13,89 +13,89 @@ public class teacherinfo {
     private int contact;
     private String email;
     private String about;
-
-    public getprofileURL(){
+    
+    public String getProfileURL() {
         return profileURL;
     }
-    public getteachername(){
-        return teachername;
-    }
-    public getteacherid(){
-        return teacherid;
-    }
-    public getteacherpassword(){
-        return teacherpassword;
-    }
-    public getspecialist(){
-        return specialist;
-    }
-    public getqualification(){
-        return qualification;
-    }
-    public getskills(){
-        return skills;
-    }
-    public getsenorityLevel(){
-        return senorityLevel;
-    }
-    public getDOB(){
-        return DOB;
-    }
-    public getgender(){
-        return gender;
-    }
-    public getaddress(){
-        return address;
-    }
-    public getcontact(){
-        return contact;
-    }
-    public getemail(){
-        return email;
-    }
-    public getabout(){
-        return about;
-    }
-    public setprofileURL(String profileURL){
+    public void setProfileURL(String profileURL) {
         this.profileURL = profileURL;
     }
-    public setteachername(String teachername){
+    public String getTeachername() {
+        return teachername;
+    }
+    public void setTeachername(String teachername) {
         this.teachername = teachername;
     }
-    public setteacherid(String teacherid){
+    public String getTeacherid() {
+        return teacherid;
+    }
+    public void setTeacherid(String teacherid) {
         this.teacherid = teacherid;
     }
-    public setteacherpassword(String teacherpassword){
+    public String getTeacherpassword() {
+        return teacherpassword;
+    }
+    public void setTeacherpassword(String teacherpassword) {
         this.teacherpassword = teacherpassword;
     }
-    public setspecialist(String specialist){
+    public String getSpecialist() {
+        return specialist;
+    }
+    public void setSpecialist(String specialist) {
         this.specialist = specialist;
     }
-    public setqualification(String qualification){
+    public String getQualification() {
+        return qualification;
+    }
+    public void setQualification(String qualification) {
         this.qualification = qualification;
     }
-    public setskills(String skills){
+    public String getSkills() {
+        return skills;
+    }
+    public void setSkills(String skills) {
         this.skills = skills;
     }
-    public setsenorityLevel(String senorityLevel){
+    public String getSenorityLevel() {
+        return senorityLevel;
+    }
+    public void setSenorityLevel(String senorityLevel) {
         this.senorityLevel = senorityLevel;
     }
-    public setDOB(String DOB){
-        this.DOB = DOB;
+    public String getDOB() {
+        return DOB;
     }
-    public setgender(String gender){
+    public void setDOB(String dOB) {
+        DOB = dOB;
+    }
+    public String getGender() {
+        return gender;
+    }
+    public void setGender(String gender) {
         this.gender = gender;
     }
-    public setaddress(String address){
+    public String getAddress() {
+        return address;
+    }
+    public void setAddress(String address) {
         this.address = address;
     }
-    public setcontact(int contact){
+    public int getContact() {
+        return contact;
+    }
+    public void setContact(int contact) {
         this.contact = contact;
     }
-    public setemail(String email){
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
         this.email = email;
     }
-    public setabout(String about){
+    public String getAbout() {
+        return about;
+    }
+    public void setAbout(String about) {
         this.about = about;
     }
 

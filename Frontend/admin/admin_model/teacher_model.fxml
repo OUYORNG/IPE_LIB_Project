@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="79.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="profileurl" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/setting.png" />
+         </image>
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+      </ImageView>
+      <Label fx:id="teachername" text="Username">
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="teacherid" layoutX="91.0" layoutY="32.0" text="GIC_ID">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="30.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="teacherskill" layoutX="228.0" layoutY="32.0" prefHeight="35.0" prefWidth="138.0" text="Specialize">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="30.0" />
+         </HBox.margin>
+      </Label>
+   </children>
+</HBox>
